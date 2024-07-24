@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins";
+    color: aliceblue;
+}
+body{
+    background-image: url(./images/anthony-garand-5st07djl65s-unsplash.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    padding: 10px;
+    margin-top: 1.5rem;
+    display: flex;
+    list-style-type: none;
+    font-size: large;
+    width: 30%;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;font-family:monospace;
+    font-size:4rem;
+
+}
+.text{
+    
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+button{
+    padding: 10px;
+    color:aliceblue;
+    background-color: #9999992d;
+    border: none;
+    border-radius: 1rem;
+    font-size: large;
+    margin: 10px;
+    margin-top: 15rem;
+    font-weight: 600;
+}
+button:hover{
+    background-color:#0653b8 ;
+    transition: 1000ms;
+}
+
+.mega{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.child{
+    width: 20%;
+    border-radius: 2rem;
+}
+img{
+    width: 100%;
+}
+.name{
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #1877F2;
+}
+.info{
+    font-size: larger;
+    padding: 8px;
+}
+.offer{
+    font-size: 3rem;
+    font-family: monospace;
+    margin-left: 10px;
+    margin-top: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #1877F2;
+}
+.offtext{
+    font-size: x-large;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.items{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.li{
+    font-size: x-large;
+    list-style-type: none;
+    font-weight: 600;
+}
+footer{
+    margin-top: 5rem;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    padding: 15px;
+}
+.foot{
+    width: 33%;
+}
+.foot1 img{
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a:hover, a:visited, a:active{
+    color: aliceblue;
+    text-decoration: none;
+}
+ul b{
+    font-size: large;
+}
+@media only screen and (max-width:480px) {
+    body{
+        background-attachment:local ;
+        background-color: black;
+    }
+    nav{
+        margin:0;
+        font-size: 0;
+        padding: 0;
+    }
+    h1{font-size: 3rem;}
+    .text{
+        margin-top: 120px;
+        font-size: large;
+    }
+    button{
+        font-size: small;
+        margin-top: auto;
+        background-color: #0653b8;
+    }
+    .mega{flex-direction: column; justify-content: center;}
+    .child{width: 100%;padding: 5px; margin-top: 25px;}
+    .offtext{
+        font-size: large;
+    }
+    .items{
+        width: 90%;
+
+    }
+}
+@media only screen and (min-width:480px) and (max-width: 674px) {
+    body{
+        background-attachment:local ;
+        background-color: black;
+    }
+    nav{
+        margin:0;
+        font-size: 0;
+        padding: 0;
+    }
+    h1{font-size: 3rem;}
+    .text{
+        margin-top: 160px;
+        font-size: large;
+    }
+    button{
+        font-size: small;
+        margin-top: auto;
+        background-color: #0653b8;
+    }
+    .mega{flex-direction: column; justify-content: center;}
+    .child{width: 100%;padding: 5px; margin-top: 25px;}
+    .offtext{
+        font-size: large;
+    }
+    .items{
+        width: 90%;
+
+    }
+    
+}
+@media only screen and (min-width:674px) and (max-width: 852px) {
+    body{
+        background-attachment:local ;
+        background-color: black;
+    }
+    nav{
+        width: 40%;
+    }
+    h1{font-size: 3rem;}
+    .text{
+        margin-top: 200px;
+        font-size: large;
+    }
+    button{
+        font-size: small;
+        margin-top: auto;
+        background-color: #0653b8;
+    }
+    .mega{ justify-content: center;}
+    .child{width: 100%;}
+    .offtext{
+        font-size: large;
+    }
+    .items{
+        width: 90%;
+
+    }
+    
+}
+@media only screen and (min-width:852px) and (max-width: 914px) {
+    body{
+        background-attachment:local ;
+        background-color: black;
+    }
+    nav{
+        width: 45%;
+    }
+    h1{font-size: 3.5rem;}
+    .text{
+        margin-top: 250px;
+        font-size: large;
+    }
+    button{
+        font-size: small;
+        margin-top: auto;
+        background-color: #0653b8;
+    }
+    .mega{ justify-content: center;}
+    .child{width: 100%;}
+    .offtext{
+        font-size: large;
+    }
+    .items{
+        width: 90%;
+
+    }
+    
+}
+@media only screen and (min-width:914px) and (max-width: 1024px) {
+    body{
+        background-attachment:local ;
+        background-color: black;
+    }
+    h1{font-size: 4rem;}
+    .text{
+        margin-top: 300px;
+        font-size: large;
+    }
+    button{
+        font-size: small;
+        margin-top: auto;
+        background-color: #0653b8;
+    }
+    .mega{ justify-content: center;}
+    .child{width: 100%;}
+    .offtext{
+        font-size: large;
+    }
+    .items{
+        width: 90%;
+
+    }
+    
+}
+@media only screen and (min-width:1024px) and (max-width: 1300px) {
+    body{
+        background-attachment:local ;
+        background-color: black;
+    }
+    h1{font-size: 4rem;}
+    .text{
+        margin-top: 500px;
+        font-size: large;
+    }
+    button{
+        font-size: small;
+        margin: auto;
+        background-color: #0653b8;
+    }
+    .mega{ justify-content: center;}
+    .child{width: 100%;}
+    .offtext{
+        font-size: large;
+    }
+    .items{
+        width: 90%;
+    }
+    
+}
